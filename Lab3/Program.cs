@@ -1,8 +1,8 @@
 ﻿using Lab3;
 
-Car auto = new(4, "Volvo", new PetrolMove());
-auto.Move();
-auto.Movable = new ElectricMove();
-auto.Move();
+Inspector instector = new(new PeopleInjured());
+instector.MakeLog();
+instector.Loggable = new PeopleNotInjured();
+instector.MakeLog();
 
 Console.ReadLine();
