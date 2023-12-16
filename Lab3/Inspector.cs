@@ -9,5 +9,5 @@ internal class Inspector
         Loggable = log;
     }
 
-    public void MakeLog() => Loggable.Log();
+    public void MakeLog() => Loggable.LogAsync();
 }

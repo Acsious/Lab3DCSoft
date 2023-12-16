@@ -2,5 +2,5 @@
 
 internal interface ILoggable
 {
-    void Log();
+    void LogAsync();
 }
